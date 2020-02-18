@@ -41,6 +41,14 @@
         {/block}
 
             {* Logo *}
+
+
+{* back to top *}
+{block name="frontend_index_backtop_footer"}
+{include file='frontend/index/backtop.tpl'}
+{/block}
+
+
        
         {/block}
     </div>
