@@ -37,5 +37,5 @@
 	</div>
 	
 	<a href="" class="opener">
-	{s name="frontend/listing/"}Categories{/s}
+	{s name="frontend/listing/categories"}Categories{/s}
 	<i class="icon--arrow-down"></i></a>
