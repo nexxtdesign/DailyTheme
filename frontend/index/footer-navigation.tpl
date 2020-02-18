@@ -54,7 +54,7 @@
     <ul class="dyfooternav">
 
     {* SHOP FOOTER MENU*} 
-    <li style="margin-bottom:5px;color:#93c351;"><a href="{$sCategoryPath articleID=$sArticle.20}"><strong>Online Shop</strong></a></li>
+    <li style="margin-bottom:5px;color:#93c351;"><a href="{shopware.php?sViewport=cat&sCategory=20}"><strong>Online Shop</strong></a></li>
     <li style="margin-left:20px;"><a href="/shop/belegtes/">Belegtes</a></li>
     <li style="margin-left:20px;"><a href="/shop/fingerfood/">Fingerfood</a></li>
     <li style="margin-left:20px;"><a href="/shop/spiesse/">Spieße</a></li>
