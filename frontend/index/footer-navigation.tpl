@@ -53,6 +53,20 @@
 
     <ul class="dyfooternav">
 
+
+
+{foreach $Category.sub as $categoryItem}
+    {foreach $categoryItem.sub as $subsub}
+        <li>
+            <a href="#">
+                <span itemprop="name">{$subsub.name}</span>
+            </a>
+        </li>
+    {/foreach}
+{/foreach}
+
+
+
     {* SHOP FOOTER MENU*} 
     <li style="margin-bottom:5px;color:#93c351;"><a href="../cat/index/sCategory/20/"><strong>Online Shop</strong></a></li>
     <li style="margin-left:20px;"><a href="/shop/belegtes/">Belegtes</a></li>
