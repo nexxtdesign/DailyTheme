@@ -3,7 +3,7 @@
 {* Service hotline *}
 {block name="frontend_index_footer_column_service_hotline"}
     <div class="footer--column column--hotline is--first block">
-       <img src="http://test.daily-catering.de/media/vector/g0/8c/8e/daily-logo-2019-weiss-v2.svg" style="width:130px;height:auto;">
+       <img src="/media/vector/g0/8c/8e/daily-logo-2019-weiss-v2.svg" style="width:130px;height:auto;">
 <img src="http://test.daily-catering.de/media/image/85/a6/8f/footer-zitat.png">
         <p style="margin:30px 0 0 30px;">
 <a href="#" class="tooltip"><img src="/media/image/a6/35/2c/dge-zertifikat.png" style="float:left;" width="60px"><span>Unser KITA-Segment ist von der Deutschen Gesellschaft<br />für Ernährung zertifiziert!</span></a>
