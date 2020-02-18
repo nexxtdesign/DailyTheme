@@ -51,17 +51,17 @@
             <nav class="column--navigation column--content">
     <ul class="dyfooternav">
         <li style="margin-bottom:5px;color:#93c351;"><a href="../cat/index/sCategory/20/"><strong>Online Shop</strong></a></li>
-    <li style="margin-left:20px;"><a href="http://test.daily-catering.de/shop/belegtes/">Belegtes</a></li>
-    <li style="margin-left:20px;"><a href="http://test.daily-catering.de/shop/fingerfood/">Fingerfood</a></li>
-    <li style="margin-left:20px;"><a href="http://test.daily-catering.de/shop/spiesse/">Spieße</a></li>
-   <li style="margin-left:20px;"> <a href="http://test.daily-catering.de/shop/warme-speisen/">Warme Speisen</a></li>
-    <li style="margin-left:20px;"><a href="http://test.daily-catering.de/shop/lunch-pakete/">Lunch Pakete</a></li>
-    <li style="margin-left:20px;"><a href="http://test.daily-catering.de/shop/salate/">Salate</a></li>
-    <li style="margin-left:20px;"><a href="http://test.daily-catering.de/shop/dessert-obst/">Dessert & Obst</a></li>
-    <li style="margin-left:20px;"><a href="http://test.daily-catering.de/shop/sweeties/">Sweeties</a></li>
-    <li style="margin-left:20px;"><a href="http://test.daily-catering.de/shop/fresh-juices/">Fresh Juices</a></li>
-    <li style="margin-left:20px;"><a href="http://test.daily-catering.de/shop/konferenz-getraenke/">Konferenz Getränke</a></li>
-    <li style="margin-left:20px;"><a href="http://test.daily-catering.de/shop/daily-kaffee/">Daily Kaffee</a></li>
+    <li style="margin-left:20px;"><a href="/shop/belegtes/">Belegtes</a></li>
+    <li style="margin-left:20px;"><a href="/shop/fingerfood/">Fingerfood</a></li>
+    <li style="margin-left:20px;"><a href="/shop/spiesse/">Spieße</a></li>
+   <li style="margin-left:20px;"> <a href="/warme-speisen/">Warme Speisen</a></li>
+    <li style="margin-left:20px;"><a href="/shop/lunch-pakete/">Lunch Pakete</a></li>
+    <li style="margin-left:20px;"><a href="/shop/salate/">Salate</a></li>
+    <li style="margin-left:20px;"><a href="/shop/dessert-obst/">Dessert & Obst</a></li>
+    <li style="margin-left:20px;"><a href="/shop/sweeties/">Sweeties</a></li>
+    <li style="margin-left:20px;"><a href="/shop/fresh-juices/">Fresh Juices</a></li>
+    <li style="margin-left:20px;"><a href="/shop/konferenz-getraenke/">Konferenz Getränke</a></li>
+    <li style="margin-left:20px;"><a href="/shop/daily-kaffee/">Daily Kaffee</a></li>
     </ul>
                
             </nav>
