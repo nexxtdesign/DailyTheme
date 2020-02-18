@@ -56,21 +56,13 @@
     <ul class="dyfooternav">
 
 
-dynmenu
-{foreach $Category.sub as $categoryItem}
-    {foreach $categoryItem.sub as $subsub}
-        <li>
-            <a href="#">
-                <span itemprop="name">{$subsub.name}</span>
-            </a>
-        </li>
-    {/foreach}
-{/foreach}
+
+
 
 
 
     {* SHOP FOOTER MENU*} 
-    <li style="margin-bottom:5px;color:#93c351;"><a href="../cat/index/sCategory/20/"><strong>Online Shop</strong></a></li>
+    <li style="margin-bottom:5px;color:#93c351;"><a href="../shop/"><strong>Online Shop</strong></a></li>
     <li style="margin-left:20px;"><a href="/shop/belegtes/">Belegtes</a></li>
     <li style="margin-left:20px;"><a href="/shop/fingerfood/">Fingerfood</a></li>
     <li style="margin-left:20px;"><a href="/shop/spiesse/">Spieße</a></li>
@@ -107,7 +99,7 @@ dynmenu
                  <ul class="dyfooternav">     
            <li style="margin-bottom:5px;color:#93c351;"><a href="../standorte/" style="color:#fff;"><strong>Standorte</strong></a></li>
            
-
+          {* 
           {if $sMenu.standorte}
               <ul id="standorte">
                   {foreach from=$sMenu.standorte item=item}
@@ -117,6 +109,7 @@ dynmenu
                   {/foreach}
               </ul>
           {/if}
+          *}
 
            <li style="margin-left:20px;"><a href="../standorte/"> Hamburg Fleetinsel</a></li>
            <li style="margin-left:20px;"><a href="../standorte/"> Hamburg Hammerbrook</a></li>
