@@ -26,7 +26,7 @@ class Theme extends \Shopware\Components\Theme
     protected $extend = 'Responsive';
 
     protected $name = <<<'SHOPWARE_EOD'
-DY Theme
+DY Theme v.2
 SHOPWARE_EOD;
 
     protected $description = <<<'SHOPWARE_EOD'
