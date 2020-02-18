@@ -54,7 +54,7 @@
     <ul class="dyfooternav">
 
 
-
+dynmenu
 {foreach $Category.sub as $categoryItem}
     {foreach $categoryItem.sub as $subsub}
         <li>
