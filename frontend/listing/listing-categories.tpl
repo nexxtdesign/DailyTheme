@@ -36,4 +36,6 @@
 		{/foreach}
 	</div>
 	
-	<a href="" class="opener">Categories<i class="icon--arrow-down"></i></a>
+	<a href="" class="opener">
+	{s name="frontend/listing/"}Categories{/s}
+	<i class="icon--arrow-down"></i></a>
