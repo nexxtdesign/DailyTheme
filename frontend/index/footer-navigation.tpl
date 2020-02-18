@@ -92,9 +92,9 @@
            <li style="margin-bottom:5px;color:#93c351;"><a href="../standorte/" style="color:#fff;"><strong>Standorte</strong></a></li>
            
 
-          {if $sMenu.gTop}
+          {if $sMenu.standorte}
               <ul id="standorte">
-                  {foreach from=$sMenu.gTop item=item}
+                  {foreach from=$sMenu.standorte item=item}
                       <li>
                           <a href="{if $item.link}{$item.link}{else}{url controller='custom' sCustom=$item.id title=$item.description}{/if}" title="{$item.description}" {if $item.target}target="{$item.target}" {/if}> {$item.description} </a>
                       </li>
