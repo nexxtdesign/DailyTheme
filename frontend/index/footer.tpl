@@ -1,5 +1,11 @@
 {extends file="parent:frontend/index/footer.tpl"}
 
+{* back to top *}
+{block name="frontend_index_backtop_footer"}
+{include file='frontend/index/backtop.tpl'}
+{/block}
+
+
 {* Footer menu *}
 {block name='frontend_index_footer_menu'}
     <div class="footer--columns block-group">
@@ -43,10 +49,7 @@
             {* Logo *}
 
 
-{* back to top *}
-{block name="frontend_index_backtop_footer"}
-{include file='frontend/index/backtop.tpl'}
-{/block}
+
 
 
        
