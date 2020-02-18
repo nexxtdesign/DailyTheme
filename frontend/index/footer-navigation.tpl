@@ -54,7 +54,7 @@
     <li style="margin-left:20px;"><a href="/shop/belegtes/">Belegtes</a></li>
     <li style="margin-left:20px;"><a href="/shop/fingerfood/">Fingerfood</a></li>
     <li style="margin-left:20px;"><a href="/shop/spiesse/">Spieße</a></li>
-   <li style="margin-left:20px;"> <a href="/warme-speisen/">Warme Speisen</a></li>
+    <li style="margin-left:20px;"> <a href="/warme-speisen/">Warme Speisen</a></li>
     <li style="margin-left:20px;"><a href="/shop/lunch-pakete/">Lunch Pakete</a></li>
     <li style="margin-left:20px;"><a href="/shop/salate/">Salate</a></li>
     <li style="margin-left:20px;"><a href="/shop/dessert-obst/">Dessert & Obst</a></li>
