@@ -29,31 +29,10 @@
 
 
 
+
+
+
 @media screen and (min-width: @tabletViewportWidth) {
-
-
-    .sidebar-main {
-        .unitize-width(230);
-        .unitize-margin(0, 0);
-        .unitize(padding-top, 30);
-        display: none;
-        float: left;
-
-        .is--ctl-listing &,
-        .is--ctl-forms &,
-        .is--ctl-tellafriend &,
-        .is--ctl-newsletter &,
-        .is--ctl-sitemap &,
-        .is--ctl-custom &,
-        .is--ctl-note.is--user &,
-        .is--ctl-address &,
-        .is--ctl-account.is--user & {
-            display: block;
-
-            & + .content--wrapper {
-                .unitize(margin-left, 0);
-            }
-        }
-
-
+.is--ctl-listing .sidebar-main + .content--wrapper, .is--ctl-forms .sidebar-main + .content--wrapper, .is--ctl-tellafriend .sidebar-main + .content--wrapper, .is--ctl-newsletter .sidebar-main + .content--wrapper, .is--ctl-sitemap .sidebar-main + .content--wrapper, .is--ctl-custom .sidebar-main + .content--wrapper, .is--ctl-note.is--user .sidebar-main + .content--wrapper, .is--ctl-address .sidebar-main + .content--wrapper, .is--ctl-account.is--user .sidebar-main + .content--wrapper {
+	.unitize(margin-left, 0);
 }
