@@ -21,11 +21,11 @@
 
 
 {* Hallo *}
-<a href="/daily-you/kontakt/"><span class="hallo"><img src="http://test.daily-catering.de/media/image/b5/f7/39/papierflieger.png" style="float:left;padding:5px 5px 0 0;margin-bottom:0;"> HALLO</span> </a>
+<a href="/daily-you/kontakt/"><span class="hallo"><img src="/media/image/b5/f7/39/papierflieger.png" style="float:left;padding:5px 5px 0 0;margin-bottom:0;"> HALLO</span> </a>
 
 
 {* shop *}
-<a href="/cat/index/sCategory/20/"><span class="osbtn" style="">ONLINE SHOP</span> </a>
+<a href="/shop/"><span class="osbtn" style="">ONLINE SHOP</span> </a>
 
 
 
