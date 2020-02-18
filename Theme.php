@@ -15,7 +15,7 @@ class Theme extends \Shopware\Components\Theme
   
         'src/aos/aos.js',
         'src/js/custom.js',
-        'src/js/DAILY.js',        
+        'src/js/DAILY.js'        
         
 
     ];
