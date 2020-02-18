@@ -49,16 +49,18 @@
 
         {block name="frontend_index_footer_column_service_menu_content"}
             <nav class="column--navigation column--content">
+    
+    <div class="footer--column-header">header</div>          
     <ul class="dyfooternav">
 
-                       {* CUSTOM FOOTER MENU*} 
-                      {foreach $sMenu.bottom as $item}
-                    <li class="footer--menu-item"><a href="{if $item.link}{$item.link}{else}{url controller='custom' sCustom=$item.id title=$item.description}{/if}">{$item.description}</a></li>
-                  {/foreach}
+    {* SHOP FOOTER MENU*} 
+    {foreach $sMenu.shop as $item}
+    <li class="footer--menu-item"><a href="{if $item.link}{$item.link}{else}{url controller='custom' sCustom=$item.id title=$item.description}{/if}">{$item.description}</a></li>
+    {/foreach}
 
 
 
-        <li style="margin-bottom:5px;color:#93c351;"><a href="../cat/index/sCategory/20/"><strong>Online Shop</strong></a></li>
+    <li style="margin-bottom:5px;color:#93c351;"><a href="../cat/index/sCategory/20/"><strong>Online Shop</strong></a></li>
     <li style="margin-left:20px;"><a href="/shop/belegtes/">Belegtes</a></li>
     <li style="margin-left:20px;"><a href="/shop/fingerfood/">Fingerfood</a></li>
     <li style="margin-left:20px;"><a href="/shop/spiesse/">Spieße</a></li>
@@ -70,6 +72,10 @@
     <li style="margin-left:20px;"><a href="/shop/fresh-juices/">Fresh Juices</a></li>
     <li style="margin-left:20px;"><a href="/shop/konferenz-getraenke/">Konferenz Getränke</a></li>
     <li style="margin-left:20px;"><a href="/shop/daily-kaffee/">Daily Kaffee</a></li>
+    
+
+
+
     </ul>
                
             </nav>
