@@ -3,8 +3,10 @@
 {* Service hotline *}
 {block name="frontend_index_footer_column_service_hotline"}
     <div class="footer--column column--hotline is--first block">
+       
        <img src="/media/vector/g0/8c/8e/daily-logo-2019-weiss-v2.svg" style="width:130px;height:auto;">
-<img src="http://test.daily-catering.de/media/image/85/a6/8f/footer-zitat.png">
+       <img src="/media/image/85/a6/8f/footer-zitat.png">
+       
         <p style="margin:30px 0 0 30px;">
 <a href="#" class="tooltip"><img src="/media/image/a6/35/2c/dge-zertifikat.png" style="float:left;" width="60px"><span>Unser KITA-Segment ist von der Deutschen Gesellschaft<br />für Ernährung zertifiziert!</span></a>
 <a href="#" class="tooltip"><img src="/media/image/c1/47/c0/deutsche-see.png" style="float:left;" width="60px"><span>MSC-zertifizierter Fisch von DeutscheSee</span></a>
@@ -119,6 +121,20 @@ dynmenu
            <li style="margin-left:20px;"><a href="../standorte/"> Hamburg Fleetinsel</a></li>
            <li style="margin-left:20px;"><a href="../standorte/"> Hamburg Hammerbrook</a></li>
            <li style="margin-bottom:20px;margin-left:20px;"><a href="../standorte/">Hamburg Heidenkampsweg</a></li>
+
+
+
+          {if $sMenu.catering}
+              <ul id="catering">
+                  {foreach from=$sMenu.catering item=item}
+                      <li>
+                          <a href="{if $item.link}{$item.link}{else}{url controller='custom' sCustom=$item.id title=$item.description}{/if}" title="{$item.description}" {if $item.target}target="{$item.target}" {/if}> {$item.description} </a>
+                      </li>
+                  {/foreach}
+              </ul>
+          {/if}
+
+
                      
             <li style="margin-bottom:20px;"><a href="../catering/business-catering/" style="color:#fff;"><strong>Catering</strong></a></li>
             <li style="margin-left:20px;"><a href="../catering/kita-catering/">KITA Catering</a></li>
