@@ -13,7 +13,7 @@ class Theme extends \Shopware\Components\Theme
      */
     protected $javascript = [
   
-        'src/aos/aos.js',
+        //'src/aos/aos.js',
         'src/js/custom.js',
         'src/js/DAILY.js'        
         
@@ -21,7 +21,7 @@ class Theme extends \Shopware\Components\Theme
     ];
  
     protected $css = array(
-    'src/aos/aos.css'
+    //'src/aos/aos.css'
 );
     
     protected $extend = 'Responsive';
