@@ -13,7 +13,7 @@ class Theme extends \Shopware\Components\Theme
      */
     protected $javascript = [
   
-        //'src/aos/aos.js',
+        'src/aos/aos.js',
         'src/js/custom.js',
         'src/js/DAILY.js'        
         
