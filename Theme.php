@@ -6,6 +6,18 @@ use Shopware\Components\Form as Form;
 
 class Theme extends \Shopware\Components\Theme
 {
+
+
+
+
+
+    protected $injectBeforePlugins = false;
+
+    protected $inheritanceConfig = false;
+
+
+
+
      /**
      * Javascript files which will be used in the theme.
      *
