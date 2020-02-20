@@ -28,8 +28,9 @@ class Theme extends \Shopware\Components\Theme
     protected $javascript = array(
         'src/aos/aos.js',
         'src/js/custom.js',
+        'src/js/plugins/slick.min.js',
         'src/js/DAILY.js'
-        'src/js/plugins/slick.min.js'
+
 
     );
 
