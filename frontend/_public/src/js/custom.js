@@ -11,19 +11,17 @@ $(function() {
     $(document).ready(function() {
     	$.subscribe('plugin/swEmotionLoader/onLoadEmotionFinished', function() {
     		
-            $('.slick').slick();
-
-            //$('.slidenav li').on('click', function() {
-    			//var mySwiper = document.querySelector('.swiper-container-horizontal').swiper;
+            $('.slidenav li').on('click', function() {
+    			var mySwiper = document.querySelector('.swiper-container-horizontal').swiper;
     			
-    			//mySwiper.slideTo($(this).index() + 1);
-    		//});
+    			mySwiper.slideTo($(this).index() + 1);
+    		});
     	
         });
     	
     	// Mobile subcategories
     	if ($(window).width() < 1024) {
-    		$('.listing--categories').slideUp(0);
+    		//$('.listing--categories').slideUp(0);
     		
     		$('.listing--categories').css('opacity', '1');
     		
