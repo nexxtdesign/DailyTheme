@@ -1,14 +1,36 @@
-.backToTop {
-    position: fixed;
-    right: 0;
-    .unitize(bottom, -120);
-    opacity: 0;
-    background: @brand-primary;
-    .unitize(padding, 20);
-    .unitize(font-size, 20);
-    transition: all ease-in-out 0.25s;
-    z-index: 5000;
+@media screen and(min-width: @desktopViewportWidth) {
+
+    .backToTop {
+        position: fixed;
+        right: 0;
+        .unitize(bottom, -120);
+        opacity: 0;
+        background: @brand-primary;
+        .unitize(padding, 20);
+        .unitize(font-size, 20);
+        transition: all ease-in-out 0.25s;
+        z-index: 5000;
+    }
+
 }
+
+
+@media screen and(max-width: @desktopViewportWidth) {
+
+    .backToTop {
+        position: fixed;
+        right: 0;
+        .unitize(bottom, -120);
+        opacity: 0;
+        background: @brand-primary;
+        .unitize(padding, 10);
+        .unitize(font-size, 10);
+        transition: all ease-in-out 0.25s;
+        z-index: 5000;
+    }
+
+}
+
 .backToTop.visible {
     .unitize(bottom, 0);
     opacity: 1;
