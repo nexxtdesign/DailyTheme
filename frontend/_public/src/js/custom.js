@@ -8,14 +8,14 @@ $(function() {
         }
     });
     
-/*    $(document).ready(function() {
+    $(document).ready(function() {
     	$.subscribe('plugin/swEmotionLoader/onLoadEmotionFinished', function() {
     		$('.slidenav li').on('click', function() {
     			var mySwiper = document.querySelector('.swiper-container-horizontal').swiper;
     			
     			mySwiper.slideTo($(this).index() + 1);
     		});
-    	});*/
+    	});
     	
     	// Mobile subcategories
     	if ($(window).width() < 1024) {
