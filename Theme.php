@@ -12,10 +12,10 @@ class Theme extends \Shopware\Components\Theme
     protected $name = 'DailyYou';
 
     /** @var string Description of the theme */
-    protected $description = 'Dein indivualisierbares Allround-Shopware-Theme';
+    protected $description = 'DAILY Systemgastronomie GmbH - Shopware-Theme';
 
     /** @var string The author of the theme */
-    protected $author = 'nexxtdesign';
+    protected $author = 'Amir Fayaz';
 
     /** @var string License of the theme */
     protected $license = 'MIT';
