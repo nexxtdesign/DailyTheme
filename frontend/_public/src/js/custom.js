@@ -21,7 +21,7 @@ $(function() {
     	
     	// Mobile subcategories
     	if ($(window).width() < 1024) {
-    		//$('.listing--categories').slideUp(0);
+    		$('.listing--categories').slideUp(0);
     		
     		$('.listing--categories').css('opacity', '1');
     		
