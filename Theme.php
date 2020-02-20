@@ -18,7 +18,7 @@ class Theme extends \Shopware\Components\Theme
     protected $author = 'nexxtdesign';
 
     /** @var string License of the theme */
-    protected $license = 'Proprietary';
+    protected $license = 'MIT';
 
     protected $injectBeforePlugins = false;
 
