@@ -52,7 +52,18 @@
 
 {* Copyright in the footer *}
 {block name='frontend_index_footer_copyright'}
-<span class="footer_copyright">&copy; {"%Y"|strftime} {config name=shopName}</span>
+<div class="footer--copyright">
+  <span style="padding-left:0px;">&copy; {"%Y"|strftime} {config name=shopName} </span>
+  
+  <span style="float:right;">
+    <a href="http://www.facebook.com/Daily.Company" target="_blank"><img src="/media/image/51/74/54/icon_facebook-2x.png" style="float:left;height:30px;width:auto;padding-right:10px;"></a> 
+    <a href="https://www.instagram.com/daily_company/" target="_blank"><img src="/media/image/3d/4f/c2/icon_instagram.png" style="float:left;height:30px;width:auto;padding-right:10px;"></a> 
+    <a href="http://www.youtube.com/user/DailyDeutschland" target="_blank"><img src="/media/image/c1/56/35/icon_youtube-2x.png" style="float:left;height:30px;width:auto;"></a>
+</span>
+                </div>
+        
+
+        <p style="color:#fff;font-size:12px;line-height:16px;text-align:justify;padding-top: 15px;">Catering Hamburg Kontakt  |  DAILY Catering Hamburg Fleetinsel  |  DAILY Catering Hamburg Hammerbrook  |  DAILY Catering bestellen  |  DAILY Catering Hamburg Wochenkarte  |  Catering italienisch Hamburg  |  Catering Hochzeit Hamburg  |  Catering Geburtstag Hamburg  Catering |  Firmenevent Hamburg  |  Kantine Hamburg  |  Mitarbeiterverpflegung in Hamburg  |  Gemeinschaftsverpflegung in Hamburg  |  Messe Catering Hamburg  |  Exhibition Catering Hamburg  |  Weihnachtsfeier Hamburg  |  Grill Buffet Catering Hamburg</p>
 {/block}
 
 
