@@ -25,7 +25,7 @@
                                 {include file="frontend/index/logo-container.tpl"}
                             {/block}
 
-                 
+         {/block}        
 
 
 
