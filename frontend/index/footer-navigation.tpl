@@ -9,8 +9,8 @@
         {block name="frontend_index_footer_column_service_hotline_headline"}
             <div class="column--headline">
 
-            <img align="left" class="footer--logos-img" src="{link file='frontend/_public/src/img/assets/daily-logo.svg' fullPath}" />
-            <img align="left" class="footer--logos-img" src="{link file='frontend/_public/src/img/assets/footer-zitat.png' fullPath}" />
+            <img align="left" class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/daily-logo.svg' fullPath}" />
+            <img align="left" class="footer--logos-img-text" src="{link file='frontend/_public/src/img/assets/footer-zitat.png' fullPath}" />
 
             {**s name="sFooterServiceHotlineHead"}{/s**}
         </div>
