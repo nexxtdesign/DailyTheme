@@ -4,21 +4,25 @@ a.tooltip {
     float: left !important;
     width: 60px;
     margin-right: 10px;
+    color: @text-color;
 }
     
 a.tooltip span {
     position: absolute;
     left: 0px;
     top: 65px;
-    background: #fff;
+    background:@brand-primary;
     padding: 5px 10px;
     font-size: 12px;
     border-radius: 10px;
     z-index: 1;
     width: max-content;
     opacity: 0;
+    .animate()
 }
 
 a.tooltip:hover span, a.tooltip:focus span, a.tooltip:active span {
     opacity: 1;
+    .animate()
+
 }
