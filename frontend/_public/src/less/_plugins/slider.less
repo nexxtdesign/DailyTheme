@@ -1,0 +1,69 @@
+/* SLIDER ALLGEMEIN **/
+
+@media screen and(min-width: @desktopViewportWidth) {
+
+  body.is--ctl-index.is--act-index.is--no-sidebar .slick {
+      background:url('/media/image/1d/cf/d6/daily-you-green-web.jpg');
+      background-repeat: no-repeat;
+      background-position:center;    
+      background-size: cover;
+  }
+
+
+}
+
+
+
+
+@media screen and(max-width: @phoneLandscapeViewportWidth) {
+
+  .swiper-wrapper p.white {
+    display: none;
+  }
+
+}
+
+
+.almAdventureSlider .alm--adventure-slider-wrapper .alm--adventure-slider-inner .adventure-swiper-container .swiper-wrapper .swiper-slide.is--vier {
+  background: transparent;
+}
+
+
+ .swiper-button-prev, .swiper-button-next {
+      bottom: unset;
+      top: 50%;
+      transform: translate(0, -50%);
+      height: 100px;
+      width: 50px;
+
+      .is--gespiegelt {
+        transform: rotate(180deg);
+        width: 100%;
+        height: 100%;
+      }
+
+      svg {
+        width: 100%;
+        height: 100%;
+        opacity: .4;
+        transition: all .5s;
+        cursor: pointer;
+
+        polygon {
+          fill: @brand-primary !important;
+        }
+      }
+
+      &:hover {
+
+        svg {
+          opacity: 1;
+        }
+      }
+    }
+
+
+
+
+
+
