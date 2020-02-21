@@ -46,7 +46,7 @@
             {* Copyright *}
             {block name="frontend_index_shopware_footer_copyright"}
 <div class="footer--copyright">
-  <span style="padding-left:0px;">&copy; 2019 {s name="shopName"}{/s}</span>
+  <span style="padding-left:0px;">&copy; {"%Y"|strftime} {config name=shopName} </span>
   
   <span style="float:right;">
     <a href="http://www.facebook.com/Daily.Company" target="_blank"><img src="/media/image/51/74/54/icon_facebook-2x.png" style="float:left;height:30px;width:auto;padding-right:10px;"></a> 
