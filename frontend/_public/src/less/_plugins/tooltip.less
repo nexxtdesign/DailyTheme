@@ -1,0 +1,24 @@
+a.tooltip {
+    position: relative;
+    text-decoration: none;
+    float: left !important;
+    width: 60px;
+    margin-right: 10px;
+}
+    
+a.tooltip span {
+    position: absolute;
+    left: 0px;
+    top: 65px;
+    background: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    z-index: 1;
+    width: max-content;
+    display: none;
+}
+
+a.tooltip:hover span, a.tooltip:focus span, a.tooltip:active span {
+    display: block;
+}
