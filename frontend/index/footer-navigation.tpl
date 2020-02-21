@@ -97,8 +97,8 @@
         {block name="frontend_index_footer_column_information_menu_content"}
            <nav class="column--navigation column--content">
                  <ul class="dyfooternav">     
-           <li style="margin-bottom:5px;color:#93c351;"><a href="../standorte/" style="color:#fff;"><strong>Standorte</strong></a></li>
-           
+{*            <li style="margin-bottom:5px;color:#93c351;"><a href="../standorte/" style="color:#fff;"><strong>Standorte</strong></a></li>
+ *}           
           {* 
           {if $sMenu.standorte}
               <ul id="standorte">
