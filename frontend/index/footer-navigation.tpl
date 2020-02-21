@@ -1,6 +1,26 @@
 {extends file="parent:frontend/index/footer-navigation.tpl"}
 {namespace name="frontend/index/menu_footer"}
 
+
+
+{* Service hotline *}
+{block name="frontend_index_footer_column_service_hotline"}
+    <div class="footer--column column--hotline is--first block">
+        {block name="frontend_index_footer_column_service_hotline_headline"}
+            <div class="column--headline">{s name="sFooterServiceHotlineHead"}{/s}</div>
+        {/block}
+
+        {block name="frontend_index_footer_column_service_hotline_content"}
+            <div class="column--content">
+            <img align="left" class="footer--logos-img" src="{link file='frontend/_public/src/img/payment/amazon.svg' fullPath}" />
+            </div>
+        {/block}
+    </div>
+{/block}
+
+
+
+
 {block name="frontend_index_footer_column_service_menu"}
 <div class="footer--column column--logos block">
     {block name="frontend_index_footer_column_payment_headline"}
