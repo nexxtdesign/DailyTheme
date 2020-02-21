@@ -52,7 +52,7 @@
 
 {* Copyright in the footer *}
 {block name='frontend_index_footer_copyright'}
->&copy; {"%Y"|strftime} {config name=shopName} 
+<span class="footer_copyright">&copy; {"%Y"|strftime} {config name=shopName}</span>
 {/block}
 
 
