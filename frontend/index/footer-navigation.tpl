@@ -90,9 +90,9 @@
 {block name="frontend_index_footer_column_newsletter"}
     <div class="footer--column column--newsletter is--last block">
        <!-- ... -->
-       <!-- {block name="frontend_index_footer_column_information_menu_headline"}
-            <div class="column--headline">Online Shop</div>
-        {/block} -->
+       {block name="frontend_index_footer_column_information_menu_headline"}
+            <div class="column--headline">Standorte</div>
+        {/block}
 
         {block name="frontend_index_footer_column_information_menu_content"}
            <nav class="column--navigation column--content">
