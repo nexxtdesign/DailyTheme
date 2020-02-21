@@ -12,17 +12,17 @@
             <img align="left" class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/daily-logo.svg' fullPath}" />
             <img align="left" class="footer--logos-img-text" src="{link file='frontend/_public/src/img/assets/footer-zitat.png' fullPath}" />
 
-        <ul class="footer--logos-container" style="margin:30px 0 0 30px;">
-            <li class="icon--container">
+        <ul class="footer--logos-container">
+            <li class="tooltip--container">
                 <a href="#" class="tooltip"><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/dge-zertifikat.png' fullPath}"><span>Unser KITA-Segment ist von der Deutschen Gesellschaft<br />für Ernährung zertifiziert!</span></a>
             </li>    
-            <li class="icon--container">
+            <li class="tooltip--container">
                 <a href="#" class="tooltip"><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/deutsche-see.png' fullPath}"><span>MSC-zertifizierter Fisch von DeutscheSee</span></a>
             </li>
-            <li class="icon--container">
+            <li class="tooltip--container">
                 <a href="#" class="tooltip"><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/klimaneutrale-produktion.png' fullPath}"><span>Klimaneutrale Produktion</span></a>
             </li>
-            <li class="icon--container">
+            <li class="tooltip--container">
                 <a href="#" class="tooltip"><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/klimaneutrale-lieferung.png' fullPath}"><span>Klimaneutrale Lieferung</span></a>
             </li>
         </ul>
