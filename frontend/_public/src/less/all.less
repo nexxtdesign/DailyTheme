@@ -3,7 +3,7 @@ All.less
 ======================================
 The `all.less` file imports all style components that will display on the page.
 
-It includes the plugins `normalize` and `pocketgrid`, the open-sans fontface and the specific less files.*/
+It includes the plugins `normalize` and `pocketgrid`, the open-sans fontface and the specific less files.
 
 
 
@@ -54,4 +54,24 @@ It includes the plugins `normalize` and `pocketgrid`, the open-sans fontface and
 
 
 // LOAD TILL MOVE TO V.2
-@import "_old/v1";
+//@import "_old/v1";
+
+
+*/
+
+
+
+/*
+All.less
+======================================
+The `all.less` file imports all style components that will display on the page.
+
+It includes the plugins `normalize` and `pocketgrid`, the open-sans fontface and the specific less files.
+*/
+
+@import "_components/fonts";
+@import "variables";
+@import "mixins";
+@import "components";
+@import "modules";
+@import "hacks";
