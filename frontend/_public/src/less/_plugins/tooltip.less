@@ -18,11 +18,11 @@ a.tooltip span {
     z-index: 1;
     width: max-content;
     opacity: 0;
-    .animate()
+    .transition(.3s);
+
 }
 
 a.tooltip:hover span, a.tooltip:focus span, a.tooltip:active span {
     opacity: 1;
-    .animate()
-
+   .transition(.3s);
 }
