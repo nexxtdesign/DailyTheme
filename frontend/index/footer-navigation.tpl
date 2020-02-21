@@ -12,6 +12,14 @@
             <img align="left" class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/daily-logo.svg' fullPath}" />
             <img align="left" class="footer--logos-img-text" src="{link file='frontend/_public/src/img/assets/footer-zitat.png' fullPath}" />
 
+            {**s name="sFooterServiceHotlineHead"}{/s**}
+        </div>
+        {/block}
+
+        {block name="frontend_index_footer_column_service_hotline_content"}
+            <div class="column--content">
+                <!-- empty-->
+
         <ul class="footer--logos-container">
             <li class="tooltip--container">
                 <a href="#" class="tooltip"><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/dge-zertifikat.png' fullPath}"><span>Unser KITA-Segment ist von der Deutschen Gesellschaft<br />für Ernährung zertifiziert!</span></a>
@@ -26,16 +34,8 @@
                 <a href="#" class="tooltip"><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/klimaneutrale-lieferung.png' fullPath}"><span>Klimaneutrale Lieferung</span></a>
             </li>
         </ul>
-        
 
 
-            {**s name="sFooterServiceHotlineHead"}{/s**}
-        </div>
-        {/block}
-
-        {block name="frontend_index_footer_column_service_hotline_content"}
-            <div class="column--content">
-                <!-- empty-->
             </div>
         {/block}
     </div>
