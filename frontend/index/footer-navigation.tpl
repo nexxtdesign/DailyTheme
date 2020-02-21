@@ -13,10 +13,10 @@
             <img align="left" class="footer--logos-img-text" src="{link file='frontend/_public/src/img/assets/footer-zitat.png' fullPath}" />
 
         <p style="margin:30px 0 0 30px;">
-            <a href="#" class="tooltip"><img src="frontend/_public/src/img/assets/dge-zertifikat.png" style="float:left;" width="60px"><span>Unser KITA-Segment ist von der Deutschen Gesellschaft<br />für Ernährung zertifiziert!</span></a>
-            <a href="#" class="tooltip"><img src="frontend/_public/src/img/assets/deutsche-see.png" style="float:left;" width="60px"><span>MSC-zertifizierter Fisch von DeutscheSee</span></a>
-            <a href="#" class="tooltip"><img src="frontend/_public/src/img/assets/klimaneutrale-produktion.png" style="float:left; " width="60px"><span>Klimaneutrale Produktion</span></a>
-            <a href="#" class="tooltip"><img src="frontend/_public/src/img/assets/klimaneutrale-lieferung.png" style="float:left;" width="60px"><span>Klimaneutrale Lieferung</span></a>
+            <a href="#" class="tooltip"><img src="{link file='frontend/_public/src/img/assets/dge-zertifikat.png' fullPath}" style="float:left;" width="60px"><span>Unser KITA-Segment ist von der Deutschen Gesellschaft<br />für Ernährung zertifiziert!</span></a>
+            <a href="#" class="tooltip"><img src="{link file='frontend/_public/src/img/assets/deutsche-see.png' fullPath}" style="float:left;" width="60px"><span>MSC-zertifizierter Fisch von DeutscheSee</span></a>
+            <a href="#" class="tooltip"><img src="{link file='frontend/_public/src/img/assets/klimaneutrale-produktion.png' fullPath}" style="float:left; " width="60px"><span>Klimaneutrale Produktion</span></a>
+            <a href="#" class="tooltip"><img src="{link file='frontend/_public/src/img/assets/klimaneutrale-lieferung.png' fullPath}" style="float:left;" width="60px"><span>Klimaneutrale Lieferung</span></a>
         </p>
         
 
