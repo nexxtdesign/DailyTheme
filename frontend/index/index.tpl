@@ -34,8 +34,7 @@
                             {/block}
                         </div>
                     {/block}
-                </header>
-
+                
                 {* Maincategories navigation top *}
                 {block name='frontend_index_navigation_categories_top'}
                     <nav class="navigation-main">
@@ -47,6 +46,13 @@
                     </nav>
                 {/block}
             {/block}
+
+
+
+
+                </header>
+
+
 
 
 
