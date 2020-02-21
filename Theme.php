@@ -29,7 +29,7 @@ class Theme extends \Shopware\Components\Theme
         'src/aos/aos.js',
         'src/js/custom.js',
         'src/js/plugins/slick.min.js',
-        'src/js/hello.js'
+        'src/js/DAILY.js'
 
 
     );
