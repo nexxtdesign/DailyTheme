@@ -12,7 +12,7 @@
 {* Copyright in the footer *}
 {block name='frontend_index_footer_copyright'}
 <div class="footer--copyright">
-  
+<div class="container">  
 
   <span style="padding-left:0px;">&copy; {"%Y"|strftime} {config name=shopName} </span>
   
@@ -57,7 +57,7 @@
     {/if}
 
 
-
+</div><!-- CONTAINER -->
 </div><!-- FOOTER COPYRIGHTS -->
 
 
