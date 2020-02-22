@@ -4,11 +4,12 @@
 {* Footer menu *}
 {block name='frontend_index_footer_menu' prepend}
 
-{* back to top *}
+{** Check if Back to Top is active for Footer **}
+{if $theme.show_backtop} 
 {block name="frontend_index_backtop_footer"}
-back top
-{include file='frontend/index/backtop.tpl'}
+    {include file='frontend/index/backtop.tpl'}
 {/block}
+{/if}
 
 
 
