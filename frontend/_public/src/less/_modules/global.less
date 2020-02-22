@@ -9,8 +9,10 @@ html {
 body {
   font-family: @font-base-stack;
   font-weight: @font-base-weight;
-  background: #fff;
+  background: @body-bg;
+  background: linear-gradient(-90deg, #0a1300 0%, #182014 35%, #252f1f 53%, #2f342f 100%);  
   .unitize(letter-spacing, .5);
+  overflow-x: hidden;
 }
 
 .content-main {
