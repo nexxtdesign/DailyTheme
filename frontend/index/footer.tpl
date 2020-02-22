@@ -1,16 +1,14 @@
 {extends file="parent:frontend/index/footer.tpl"}
 
+
+{* Footer menu *}
+{block name='frontend_index_footer_menu' prepend}
+
 {* back to top *}
 {block name="frontend_index_backtop_footer"}
 back top
 {include file='frontend/index/backtop.tpl'}
 {/block}
-
-
-
-{* Footer menu *}
-{block name='frontend_index_footer_menu' prepend}
-
 
 
 
