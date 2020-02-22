@@ -3,13 +3,6 @@
 {* Footer menu *}
 {block name='frontend_index_footer_menu' prepend}
 
-{* back to top *}
-{block name="frontend_index_backtop_footer"}
-{include file='frontend/index/backtop.tpl'}
-{/block}
-
-frontend_index_footer_menu
-
 {/block}
 
 {* Copyright in the footer *}

@@ -2,6 +2,12 @@
 {namespace name="frontend/index/menu_footer"}
 
 
+{* back to top *}
+{block name="frontend_index_backtop_footer"}
+{include file='frontend/index/backtop.tpl'}
+{/block}
+
+
 
 {* Service hotline *}
 {block name="frontend_index_footer_column_service_hotline"}
