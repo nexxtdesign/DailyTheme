@@ -3,14 +3,12 @@
 {* Footer menu *}
 {block name='frontend_index_footer_menu' prepend}
 
-
-
 {* back to top *}
 {block name="frontend_index_backtop_footer"}
 {include file='frontend/index/backtop.tpl'}
 {/block}
 
-
+frontend_index_footer_menu
 
 {/block}
 
@@ -19,7 +17,6 @@
 <div class="footer--copyright">
   <span style="padding-left:0px;">&copy; {"%Y"|strftime} {config name=shopName} </span>
   
-  <span style="float:right;">
 
     {if $theme.social_settings_show}
         <div class="footer--social">
@@ -61,9 +58,7 @@
     {/if}
 
 
-    
 
-</span>
 </div><!-- FOOTER COPYRIGHTS -->
 <p style="color:#fff;font-size:12px;line-height:16px;text-align:justify;padding-top: 15px;">
 Catering Hamburg Kontakt  |  DAILY Catering Hamburg Fleetinsel  |  DAILY Catering Hamburg Hammerbrook  |  DAILY Catering bestellen  |  DAILY Catering Hamburg Wochenkarte  |  Catering italienisch Hamburg  |  Catering Hochzeit Hamburg  |  Catering Geburtstag Hamburg  Catering |  Firmenevent Hamburg  |  Kantine Hamburg  |  Mitarbeiterverpflegung in Hamburg  |  Gemeinschaftsverpflegung in Hamburg  |  Messe Catering Hamburg  |  Exhibition Catering Hamburg  |  Weihnachtsfeier Hamburg  |  Grill Buffet Catering Hamburg</p>
