@@ -21,8 +21,10 @@
 <div class="footer--copyright">
 <div class="container">  
 
-  <span style="padding-left:0px;">&copy; {"%Y"|strftime} {config name=shopName} </span>
   
+<div class="footer--copy-text">
+<span style="padding-left:0px;">&copy; {"%Y"|strftime} {config name=shopName} </span>
+</div>  
 
     {if $theme.social_settings_show}
         <div class="footer--social">
