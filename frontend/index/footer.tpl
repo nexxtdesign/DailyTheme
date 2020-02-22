@@ -23,7 +23,7 @@
 
   
 <div class="footer--copy-text">
-<span style="padding-left:0px;">&copy; {"%Y"|strftime} {config name=shopName} </span>
+&copy; {"%Y"|strftime} {config name=shopName}
 </div>  
 
     {if $theme.social_settings_show}
