@@ -27,7 +27,8 @@
                 {if $theme.social_settings_facebook}
                     <li class="social--item">
                         <a href="{$theme.social_settings_facebook}" target="_blank" rel="nofollow" class="social--item-link">
-                            <i class="icon icon--facebook"></i>
+                            <!-- <i class="icon icon--facebook"></i> -->
+                            <img src="{link file='frontend/_public/src/img/assets/footer-zitat.png' fullPath}">
                         </a>
                     </li>
                 {/if}
@@ -60,6 +61,7 @@
     <a href="http://www.facebook.com/Daily.Company" target="_blank"><img src="/media/image/51/74/54/icon_facebook-2x.png" style="float:left;height:30px;width:auto;padding-right:10px;"></a> 
     <a href="https://www.instagram.com/daily_company/" target="_blank"><img src="/media/image/3d/4f/c2/icon_instagram.png" style="float:left;height:30px;width:auto;padding-right:10px;"></a> 
     <a href="http://www.youtube.com/user/DailyDeutschland" target="_blank"><img src="/media/image/c1/56/35/icon_youtube-2x.png" style="float:left;height:30px;width:auto;"></a>
+
 </span>
 </div>
         
