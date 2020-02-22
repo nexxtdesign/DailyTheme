@@ -28,7 +28,7 @@
                     <li class="social--item">
                         <a href="{$theme.social_settings_facebook}" target="_blank" rel="nofollow" class="social--item-link">
                             <!-- <i class="icon icon--facebook"></i> -->
-                            <img src="{link file='frontend/_public/src/img/assets/footer-zitat.png' fullPath}">
+                            <img src="{link file='frontend/_public/src/img/assets/icon_facebook-2x.png' fullPath}">
                         </a>
                     </li>
                 {/if}
@@ -42,7 +42,9 @@
                 {if $theme.social_settings_instagram}
                     <li class="social--item">
                         <a href="{$theme.social_settings_instagram}" target="_blank" rel="nofollow" class="social--item-link">
-                            <i class="icon icon--instagram"></i>
+                            <!-- <i class="icon icon--instagram"></i> -->
+                            <img src="{link file='frontend/_public/src/img/assets/icon_instagram.png' fullPath}">
+
                         </a>
                     </li>
                 {/if}
