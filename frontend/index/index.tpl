@@ -68,12 +68,6 @@
 {* Footer *}
 {block name="frontend_index_footer"}
 
-{block name='frontend_index_prefooter'}
-{include file='frontend/index/prefooter.tpl'}
-{/block}
-
-
-
     {block name='frontend_index_newsletter'}
         {if $theme.show_newsletter_box}
             {include file='frontend/index/main-newsletter.tpl'}
