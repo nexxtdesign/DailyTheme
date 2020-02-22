@@ -26,11 +26,12 @@ class Theme extends \Shopware\Components\Theme
 
     /** @var array Defines the files which should be compiled by the javascript compressor */
     protected $javascript = array(
+        'src/js/hello.js',
+        'src/js/jquery.sticky-header.js',        
         'src/aos/aos.js',
         'src/js/custom.js',
         'src/js/plugins/slick.min.js',
         'src/js/DAILY.js'
-
 
     );
 
