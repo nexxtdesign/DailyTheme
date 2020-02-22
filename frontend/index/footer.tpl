@@ -2,6 +2,7 @@
 
 {* back to top *}
 {block name="frontend_index_backtop_footer"}
+back top
 {include file='frontend/index/backtop.tpl'}
 {/block}
 
