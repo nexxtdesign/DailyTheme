@@ -16,7 +16,7 @@
         <ul class="footer--tooltips-container">
             <li class="tooltip--container">
               <!-- Top tooltip-->
-              <div class="con-tooltip top">
+              <div class="con-tooltip bottom">
                 <p><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/dge-zertifikat.png' fullPath}"></p>
                 <div class="tooltip ">
                   <p>{s name="sFooterToolTip1"}{/s}</p>
@@ -25,7 +25,7 @@
             </li>    
             <li class="tooltip--container">
               <!-- Top tooltip-->
-              <div class="con-tooltip top">
+              <div class="con-tooltip bottom">
                 <p><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/deutsche-see.png' fullPath}"></p>
                 <div class="tooltip ">
                   <p>{s name="sFooterToolTip2"}{/s}</p>
@@ -34,7 +34,7 @@
             </li>    
             <li class="tooltip--container">
               <!-- Top tooltip-->
-              <div class="con-tooltip top">
+              <div class="con-tooltip bottom">
                 <p><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/klimaneutrale-produktion.png' fullPath}"></p>
                 <div class="tooltip ">
                   <p>{s name="sFooterToolTip3"}{/s}</p>
@@ -43,7 +43,7 @@
             </li>    
             <li class="tooltip--container">
               <!-- Top tooltip-->
-              <div class="con-tooltip top">
+              <div class="con-tooltip bottom">
                 <p><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/klimaneutrale-lieferung.png' fullPath}"></p>
                 <div class="tooltip ">
                   <p>{s name="sFooterToolTip4"}{/s}</p>
