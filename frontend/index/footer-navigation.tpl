@@ -12,8 +12,18 @@
             <img align="left" class="footer--logos-img-text" src="{link file='frontend/_public/src/img/assets/footer-zitat.png' fullPath}" />
 
 
-        <ul class="footer--logos-container">
+        <ul class="footer--tooltips-container">
             <li class="tooltip--container">
+
+              <!-- Top tooltip-->
+              <div class="con-tooltip top">
+                <p> Top </p>
+                <div class="tooltip ">
+                  <p>Top</p>
+                </div>
+              </div>
+
+
                 <p data-tooltip="tooltip"><img class="tooltip footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/dge-zertifikat.png' fullPath}"><span>Unser KITA-Segment ist von der Deutschen Gesellschaft<br />für Ernährung zertifiziert!</span></p>
             </li>    
             <li class="tooltip--container">
