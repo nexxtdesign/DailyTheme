@@ -49,4 +49,6 @@
 
 
 
-
+{block name="frontend_index_footer_column_newsletter"}
+col 4
+{/block}
