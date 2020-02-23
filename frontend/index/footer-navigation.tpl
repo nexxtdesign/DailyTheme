@@ -17,15 +17,13 @@
 
               <!-- Top tooltip-->
               <div class="con-tooltip top">
-                <p> Top </p>
+                <p><img class="tooltip footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/dge-zertifikat.png' fullPath}"></p>
                 <div class="tooltip ">
-                  <p>Top</p>
+                  <p>{s name="sFooterToolTip1"}{/s}</p>
                 </div>
               </div>
-
-
-                <p data-tooltip="tooltip"><img class="tooltip footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/dge-zertifikat.png' fullPath}"><span>Unser KITA-Segment ist von der Deutschen Gesellschaft<br />für Ernährung zertifiziert!</span></p>
             </li>    
+
             <li class="tooltip--container">
                 <a href="#" class="tooltip"><img class="tooltip footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/deutsche-see.png' fullPath}"><span>MSC-zertifizierter Fisch von DeutscheSee</span></a>
             </li>
