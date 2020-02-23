@@ -92,7 +92,7 @@ $(function() {
     	
     	// Tooltip
     	$.subscribe('plugin/swEmotionLoader/onLoadEmotionFinished', function () {
-    		$('.tooltip img').on('touchstart', function(e) {
+    		$('.tooltip img, data-tooltip').on('touchstart', function(e) {
         		e.preventDefault();
         		/*
         		if ($(this).parent().find('span').css('display') == 'none') {
