@@ -17,7 +17,7 @@
 
               <!-- Top tooltip-->
               <div class="con-tooltip top">
-                <p><img class="tooltip footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/dge-zertifikat.png' fullPath}"></p>
+                <p><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/dge-zertifikat.png' fullPath}"></p>
                 <div class="tooltip ">
                   <p>{s name="sFooterToolTip1"}{/s}</p>
                 </div>
