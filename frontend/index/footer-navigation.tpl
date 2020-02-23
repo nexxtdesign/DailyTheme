@@ -7,6 +7,7 @@
     <div class="footer--column column--hotline is--first block">
         {block name="frontend_index_footer_column_service_hotline_headline"}
             <div class="column--headline">
+            {**s name="sFooterServiceHotlineHead"}{/s**}
 
             <img align="left" class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/daily-logo.svg' fullPath}" />
             <img align="left" class="footer--logos-img-text" src="{link file='frontend/_public/src/img/assets/footer-zitat.png' fullPath}" />
@@ -14,7 +15,6 @@
 
         <ul class="footer--tooltips-container">
             <li class="tooltip--container">
-
               <!-- Top tooltip-->
               <div class="con-tooltip top">
                 <p><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/dge-zertifikat.png' fullPath}"></p>
@@ -23,20 +23,35 @@
                 </div>
               </div>
             </li>    
-
             <li class="tooltip--container">
-                <a href="#" class="tooltip"><img class="tooltip footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/deutsche-see.png' fullPath}"><span>MSC-zertifizierter Fisch von DeutscheSee</span></a>
-            </li>
+              <!-- Top tooltip-->
+              <div class="con-tooltip top">
+                <p><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/deutsche-see.png' fullPath}"></p>
+                <div class="tooltip ">
+                  <p>{s name="sFooterToolTip2"}{/s}</p>
+                </div>
+              </div>
+            </li>    
             <li class="tooltip--container">
-                <a href="#" class="tooltip"><img class="tooltip footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/klimaneutrale-produktion.png' fullPath}"><span>Klimaneutrale Produktion</span></a>
-            </li>
+              <!-- Top tooltip-->
+              <div class="con-tooltip top">
+                <p><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/klimaneutrale-produktion.png' fullPath}"></p>
+                <div class="tooltip ">
+                  <p>{s name="sFooterToolTip3"}{/s}</p>
+                </div>
+              </div>
+            </li>    
             <li class="tooltip--container">
-                <a href="#" class="tooltip"><img class="tooltip footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/klimaneutrale-lieferung.png' fullPath}"><span>Klimaneutrale Lieferung</span></a>
-            </li>
+              <!-- Top tooltip-->
+              <div class="con-tooltip top">
+                <p><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/klimaneutrale-lieferung.png' fullPath}"></p>
+                <div class="tooltip ">
+                  <p>{s name="sFooterToolTip4"}{/s}</p>
+                </div>
+              </div>
+            </li>                
+        
         </ul>
-
-
-            {**s name="sFooterServiceHotlineHead"}{/s**}
         </div>
         {/block}
 
