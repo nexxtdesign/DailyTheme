@@ -52,9 +52,9 @@
 {block name="frontend_index_footer_column_newsletter"}
     <div class="footer--column column--menu is--last block">
         {block name="frontend_index_footer_column_service_menu_headline"}
-            <div class="column--headline">{s name="sFooterShopNavi1"}{/s}</div>
+            <div class="column--headline"><h4>{s name="sFooterShopNavi4"}{/s}</h4></div>
         {/block}
 
 
-        
+
 {/block}
