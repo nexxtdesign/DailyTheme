@@ -50,5 +50,11 @@
 
 
 {block name="frontend_index_footer_column_newsletter"}
-col 4
+    <div class="footer--column column--menu is--last block">
+        {block name="frontend_index_footer_column_service_menu_headline"}
+            <div class="column--headline">{s name="sFooterShopNavi1"}{/s}</div>
+        {/block}
+
+
+        
 {/block}
