@@ -92,15 +92,14 @@ $(function() {
     	
     	// Tooltip
     	$.subscribe('plugin/swEmotionLoader/onLoadEmotionFinished', function () {
-    		$('data-tooltip=[tooltip]').on('touchstart', function(e) {
+    		$('.tooltip img').on('touchstart', function(e) {
         		e.preventDefault();
-                alert('tooltip touched')
-        		
+        		/*
         		if ($(this).parent().find('span').css('display') == 'none') {
         			$(this).parent().find('span').css('display', 'block');
         		} else {
         			$(this).parent().find('span').css('display', 'none');
-        		}
+        		}*/
         	});
     	});
     	
