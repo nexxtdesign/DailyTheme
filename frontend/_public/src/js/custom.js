@@ -92,8 +92,9 @@ $(function() {
     	
     	// Tooltip
     	$.subscribe('plugin/swEmotionLoader/onLoadEmotionFinished', function () {
-    		$('.tooltip').on('touchstart', function(e) {
+    		$('data-tooltip=[tooltip]').on('touchstart', function(e) {
         		e.preventDefault();
+                alert('tooltip touched')
         		
         		if ($(this).parent().find('span').css('display') == 'none') {
         			$(this).parent().find('span').css('display', 'block');
