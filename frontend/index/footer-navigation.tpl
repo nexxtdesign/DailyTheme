@@ -14,7 +14,7 @@
 
         <ul class="footer--logos-container">
             <li class="tooltip--container">
-                <a href="#" class="tooltip"><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/dge-zertifikat.png' fullPath}"><span>Unser KITA-Segment ist von der Deutschen Gesellschaft<br />für Ernährung zertifiziert!</span></a>
+                <span data-tooltip="tooltip"><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/dge-zertifikat.png' fullPath}"><span>Unser KITA-Segment ist von der Deutschen Gesellschaft<br />für Ernährung zertifiziert!</span></span>
             </li>    
             <li class="tooltip--container">
                 <a href="#" class="tooltip"><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/deutsche-see.png' fullPath}"><span>MSC-zertifizierter Fisch von DeutscheSee</span></a>
