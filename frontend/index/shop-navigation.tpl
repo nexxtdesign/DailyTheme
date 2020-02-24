@@ -14,10 +14,8 @@
             </li>
         {/block}
 
-        {* Search form -- added shop button & tel link*}
+        {* Search form -- removed*}
         {block name='frontend_index_search'}
-        shop 
-        tel
         {/block}
 
         {* Cart entry *}
