@@ -98,7 +98,7 @@
 
 
         {block name="frontend_index_footer_column_service_menu_headline"}
-            <div class="column--headline">{s name="sFooterShopNavi4"}{/s}</div>
+            <div class="column--headline">{s name="sFooterShopNavi5"}{/s}</div>
         {/block}
 
         {block name="frontend_index_footer_column_service_menu_content"}
