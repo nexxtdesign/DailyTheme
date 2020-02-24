@@ -7,9 +7,7 @@
     <div class="footer--column column--hotline is--first block">
         {block name="frontend_index_footer_column_service_hotline_headline"}
 
-            <div class="column--headline">
-            {**s name="sFooterServiceHotlineHead"}{/s**}
-            <img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/daily-logo.svg' fullPath}" />
+   <img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/daily-logo.svg' fullPath}" />
             <img class="footer--logos-img-text" src="{link file='frontend/_public/src/img/assets/footer-zitat.png' fullPath}" />
 
 
@@ -30,8 +28,12 @@
               <!-- Top tooltip-->
               <a href="#" class="tooltip"><img src="{link file='frontend/_public/src/img/assets/klimaneutrale-lieferung.png' fullPath}" style="float:left;" width="60px"><span>{s name="sFooterToolTip4"}{/s}</span></a>
             </li>                
-        </ul>
-        
+        </ul>         
+
+
+            <div class="column--headline">
+            {**s name="sFooterServiceHotlineHead"}{/s**}
+                 
         </div>
         {/block}
 
