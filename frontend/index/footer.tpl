@@ -15,8 +15,10 @@
 
 {* Copyright in the footer *}
 {block name='frontend_index_footer_copyright'}
+
 <div class="footer--copyright">
-	<div class="container">  
+
+	
 	{block name="frontend_index_footer_copytext"}  
 	<div class="footer--copy-text">
 	&copy; {"%Y"|strftime} {config name=shopName}
@@ -26,7 +28,7 @@
 	{block name="frontend_index_social_media"}
 	    {include file='frontend/index/social_media.tpl'}
 	{/block}
-	</div><!-- CONTAINER -->
+
 </div><!-- FOOTER COPYRIGHTS -->
 
 
