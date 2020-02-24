@@ -6,11 +6,11 @@
 {block name="frontend_index_footer_column_service_hotline"}
     <div class="footer--column column--hotline is--first block">
         {block name="frontend_index_footer_column_service_hotline_headline"}
+
             <div class="column--headline">
             {**s name="sFooterServiceHotlineHead"}{/s**}
-
-            <img align="left" class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/daily-logo.svg' fullPath}" />
-            <img align="left" class="footer--logos-img-text" src="{link file='frontend/_public/src/img/assets/footer-zitat.png' fullPath}" />
+            <img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/daily-logo.svg' fullPath}" />
+            <img class="footer--logos-img-text" src="{link file='frontend/_public/src/img/assets/footer-zitat.png' fullPath}" />
 
 
         <ul class="footer--tooltips-container">
@@ -31,14 +31,13 @@
               <a href="#" class="tooltip"><img src="{link file='frontend/_public/src/img/assets/klimaneutrale-lieferung.png' fullPath}" style="float:left;" width="60px"><span>{s name="sFooterToolTip4"}{/s}</span></a>
             </li>                
         </ul>
+        
         </div>
         {/block}
 
         {block name="frontend_index_footer_column_service_hotline_content"}
             <div class="column--content">
                 <!-- empty-->
-
-
 
 
             </div>
