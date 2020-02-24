@@ -47,6 +47,8 @@
     </div>
 {/block}
 
+{block name="frontend_index_footer_column_service"}
+{/block}
 
 
 
