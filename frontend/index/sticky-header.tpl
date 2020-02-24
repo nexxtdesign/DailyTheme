@@ -27,16 +27,14 @@
                             {/foreach}
                         {/strip}
 
+                        <li class="navigation--entry-tel" role="menuitem">123465</li>
+                        <li class="navigation--entry-hello" role="menuitem">hello</li>
+                        <li class="navigation--entry-onlineshop" role="menuitem">ONLINE SHOP</li>
+
+
                     </ul>
 
-                    <ul class="navigation-sticky-second--list">
-                        <li>                    tel / shop</li>
-                    </ul>
-
-
-
-
-                </nav>
+               </nav>
             {/block}
 
             {* Shop navigation *}
