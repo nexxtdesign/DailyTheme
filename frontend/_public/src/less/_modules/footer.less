@@ -203,3 +203,16 @@ ul.footer--logos-container {
 .footer--service-menu {
     display: none;
 }
+
+
+
+
+
+.footer-main .column--headline::after {
+    font-family: @themify-icon-fontname;
+    color: @text-color-light;
+    content: @ti-angle-up; 
+}
+.footer-main .column--headline.is--active::after {
+    content: @ti-angle-down; 
+}
