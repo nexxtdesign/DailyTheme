@@ -29,7 +29,7 @@
 
                         <li class="navigation--entry tel-link" role="menuitem">123465</li>
                         <li class="navigation--entry hello-link" role="menuitem">hello</li>
-                        <li class="navigation--entry onlineshop-link" role="menuitem"><a href="/shop">SHOP</a></li>
+                        <li class="navigation--entry onlineshop-link" role="menuitem"><a class="btn is--primary is--large is--center" href="/shop/">SHOP</a></li>
 
 
                     </ul>
