@@ -27,9 +27,7 @@
                             {/foreach}
                         {/strip}
 
-                        <li class="navigation--entry tel-link" role="menuitem">123465</li>
-                        <li class="navigation--entry hello-link" role="menuitem">hello</li>
-                        <li class="navigation--entry onlineshop-link" role="menuitem"><a class="btn is--primary is--large is--center" href="/shop/">SHOP</a></li>
+
 
 
                     </ul>
@@ -41,6 +39,15 @@
             {block name='frontend_index_sticky_header_shop_nav'}
                 <nav class="sticky-col shop--navigation-sticky shop--navigation block-group">
                     <ul class="navigation--list block-group" role="menubar">
+                        
+                        <!-- ADDITIONAL LINKS -->
+                        <li class="navigation--entry tel-link" role="menuitem">123465</li>
+                        <li class="navigation--entry hello-link" role="menuitem">hello</li>
+                        <li class="navigation--entry onlineshop-link" role="menuitem"><a class="btn is--primary is--large is--center" href="/shop/">SHOP</a></li>
+
+
+
+
                         <li class="navigation--entry entry--account{if {config name=useSltCookie} || $sOneTimeAccount} with-slt{/if}"
                             role="menuitem"
                             data-offcanvas="true"
