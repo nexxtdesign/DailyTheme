@@ -78,6 +78,10 @@
                             <div class="ajax-loader">&nbsp;</div>
                         </li>
                     </ul>
+                
+
+                    tel / shop
+
                 </nav>
             {/block}
         </div>
