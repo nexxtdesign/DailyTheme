@@ -41,8 +41,8 @@
                     <ul class="navigation--list block-group" role="menubar">
                         
                         <!-- ADDITIONAL LINKS -->
-                        <li class="navigation--entry tel-link" role="menuitem"><a href="/kontakt/"><i class="icon--account"></i>Hallo</a></li>
-                        <li class="navigation--entry hello-link" role="menuitem"><a href="/kontakt/"><i class="ti ti-envelope"></i>Hallo</a></li>
+                        <li class="navigation--entry tel-link" role="menuitem"><a href="tel:00494040188564"><i class="ti ti-phone"></i>040-4018 8564</a></li>
+                        <li class="navigation--entry hello-link" role="menuitem"><a href="/daily-you/kontakt/"><i class="ti ti-envelope"></i>Hallo</a></li>
                         <li class="navigation--entry onlineshop-link" role="menuitem"><a class="btn is--primary is--large is--center" href="/shop/">SHOP</a></li>
 
 
