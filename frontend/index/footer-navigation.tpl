@@ -16,8 +16,12 @@
         <ul class="footer--tooltips-container">
             <li class="tooltip--container">
               <!-- Top tooltip-->
+
+<a href="#" class="tooltip"><img src="{link file='frontend/_public/src/img/assets/dge-zertifikat.png' fullPath}" style="float:left;" width="60px"><span>{s name="sFooterToolTip1"}{/s}</span></a>
+
+              
               <div class="con-tooltip bottom">
-                <p><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/dge-zertifikat.png' fullPath}"></p>
+                <a href="#" class="tooltip"><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/dge-zertifikat.png' fullPath}"></p>
                 <div class="tooltip ">
                   <p>{s name="sFooterToolTip1"}{/s}</p>
                 </div>
