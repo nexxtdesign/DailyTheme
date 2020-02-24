@@ -28,6 +28,14 @@
                         {/strip}
 
                     </ul>
+
+                    <ul class="navigation-sticky-second--list">
+                        <li>                    tel / shop</li>
+                    </ul>
+
+
+
+
                 </nav>
             {/block}
 
@@ -80,7 +88,6 @@
                     </ul>
                 
 
-                    tel / shop
 
                 </nav>
             {/block}
