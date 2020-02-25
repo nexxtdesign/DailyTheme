@@ -20,7 +20,7 @@ class Theme extends \Shopware\Components\Theme
     /** @var string License of the theme */
     protected $license = 'MIT';
 
-    protected $injectBeforePlugins = false;
+    protected $injectBeforePlugins = true;
 
     protected $inheritanceConfig = false;
 
