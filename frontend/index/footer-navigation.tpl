@@ -7,8 +7,8 @@
     <div class="footer--column column--hotline is--first block">
         {block name="frontend_index_footer_column_service_hotline_headline"}
 
-   <img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/daily-logo.svg' fullPath}" />
-            <img class="footer--logos-img-text" src="{link file='frontend/_public/src/img/assets/footer-zitat.png' fullPath}" />
+        <a href="/"><img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/daily-logo.svg' fullPath}" /></a>
+        <img class="footer--logos-img-text" src="{link file='frontend/_public/src/img/assets/footer-zitat.png' fullPath}" />
 
 
         <ul class="footer--tooltips-container">
