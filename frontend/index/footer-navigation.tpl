@@ -1,99 +1,246 @@
+{extends file="parent:frontend/index/footer-navigation.tpl"}
 {namespace name="frontend/index/menu_footer"}
+
 
 {* Service hotline *}
 {block name="frontend_index_footer_column_service_hotline"}
     <div class="footer--column column--hotline is--first block">
-       <img src="/media/vector/g0/8c/8e/daily-logo-2019-weiss-v2.svg" style="width:130px;height:auto;">
-<img src="/media/image/85/a6/8f/footer-zitat.png">
-        <p style="margin:30px 0 0 30px;">
-<a href="#" class="tooltip"><img src="/media/image/a6/35/2c/dge-zertifikat.png" style="float:left;" width="60px"><span>Unser KITA-Segment ist von der Deutschen Gesellschaft<br />für Ernährung zertifiziert!</span></a>
-<a href="#" class="tooltip"><img src="/media/image/c1/47/c0/deutsche-see.png" style="float:left;" width="60px"><span>MSC-zertifizierter Fisch von DeutscheSee</span></a>
-<a href="#" class="tooltip"><img src="/media/image/76/a3/96/klimaneutrale-produktion.png" style="float:left; " width="60px"><span>Klimaneutrale Produktion</span></a>
-<a href="#" class="tooltip"><img src="/media/image/fd/07/59/klimaneutrale-lieferung.png" style="float:left;" width="60px"><span>Klimaneutrale Lieferung</span></a>
+        {block name="frontend_index_footer_column_service_hotline_headline"}
+
+   <img class="footer--logos-img-logo" src="{link file='frontend/_public/src/img/assets/daily-logo.svg' fullPath}" />
+            <img class="footer--logos-img-text" src="{link file='frontend/_public/src/img/assets/footer-zitat.png' fullPath}" />
 
 
-        </p>
-        
+        <ul class="footer--tooltips-container">
+            <li class="tooltip--container">
+              <!-- Top tooltip-->
+              <a href="#" class="tooltip"><img src="{link file='frontend/_public/src/img/assets/dge-zertifikat.png' fullPath}" style="float:left;" width="60px"><span>{s name="sFooterToolTip1"}{/s}</span></a>
+            </li>    
+            <li class="tooltip--container">
+              <!-- Top tooltip-->
+              <a href="#" class="tooltip"><img src="{link file='frontend/_public/src/img/assets/deutsche-see.png' fullPath}" style="float:left;" width="60px"><span>{s name="sFooterToolTip2"}{/s}</span></a>
+             </li>    
+            <li class="tooltip--container">
+              <!-- Top tooltip-->
+              <a href="#" class="tooltip"><img src="{link file='frontend/_public/src/img/assets/klimaneutrale-produktion.png' fullPath}" style="float:left;" width="60px"><span>{s name="sFooterToolTip3"}{/s}</span></a>
+            </li>    
+            <li class="tooltip--container">
+              <!-- Top tooltip-->
+              <a href="#" class="tooltip"><img src="{link file='frontend/_public/src/img/assets/klimaneutrale-lieferung.png' fullPath}" style="float:left;" width="60px"><span>{s name="sFooterToolTip4"}{/s}</span></a>
+            </li>                
+        </ul>         
+
+
+            <div class="column--headline">
+            {**s name="sFooterServiceHotlineHead"}{/s**}
+                 
+        </div>
+        {/block}
+
+        {block name="frontend_index_footer_column_service_hotline_content"}
+            <div class="column--content">
+                <!-- empty-->
+
+
+            </div>
+        {/block}
     </div>
 {/block}
 
 
-{block name="frontend_index_footer_column_zusatz_menu"}
-    <div class="footer--column column--menu block small">
-       <!-- ... -->
-   <!-- {block name="frontend_index_footer_column_service_menu_headline"}
-            <div class="column--headline">Standorte</div>
-        {/block} -->
+{* FOOTER COL 1*}
+{block name="frontend_index_footer_column_service_menu"}
+    <div class="footer--column column--menu block service_menu">
+        {block name="frontend_index_footer_column_service_menu_headline"}
+            <div class="column--headline">{s name="sFooterShopNavi1"}{/s}</div>
+        {/block}
 
-        {block name="frontend_index_footer_column_zusatz_menu_content"}
+        {block name="frontend_index_footer_column_service_menu_content"}
             <nav class="column--navigation column--content">
-                <ul class="dyfooternav">
-                     <li style="margin-bottom:5px;color:#93c351;"><a href="../standorte/" style="color:#fff;"><strong>Service</strong></a></li>
-                     	{foreach $sMenu.bottom as $item}
-           					<li style="margin-left:20px;"><a href="{if $item.link}{$item.link}{else}{url controller='custom' sCustom=$item.id title=$item.description}{/if}">{$item.description}</a></li>
-           				{/foreach}
-        		</ul>
+                <ul class="navigation--list" role="menu">
+                    {block name="frontend_index_footer_column_service_menu_before"}{/block}
+                    {foreach $sMenu.bottom as $item}
+
+                        {block name="frontend_index_footer_column_service_menu_entry"}
+                            <li class="navigation--entry" role="menuitem">
+                                <a class="navigation--link" href="{if $item.link}{$item.link}{else}{url controller='custom' sCustom=$item.id title=$item.description}{/if}" title="{$item.description|escape}"{if $item.target} target="{$item.target}"{/if}>
+                                    {$item.description}
+                                </a>
+
+                                {* Sub categories *}
+                                {if $item.childrenCount > 0}
+                                    <ul class="navigation--list is--level1" role="menu">
+                                        {foreach $item.subPages as $subItem}
+                                            <li class="navigation--entry" role="menuitem">
+                                                <a class="navigation--link" href="{if $subItem.link}{$subItem.link}{else}{url controller='custom' sCustom=$subItem.id title=$subItem.description}{/if}" title="{$subItem.description|escape}"{if $subItem.target} target="{$subItem.target}"{/if}>
+                                                    {$subItem.description}
+                                                </a>
+                                            </li>
+                                        {/foreach}
+                                    </ul>
+                                {/if}
+                            </li>
+                        {/block}
+                    {/foreach}
+
+                    {block name="frontend_index_footer_column_service_menu_after"}{/block}
+                </ul>
             </nav>
         {/block}
-         <!-- ... -->
     </div>
 {/block}
+
+
+
 
 
 {block name="frontend_index_footer_column_information_menu"}
     <div class="footer--column column--menu block">
-       <!-- ... -->
-   <!-- {block name="frontend_index_footer_column_service_menu_headline"}
-            <div class="column--headline">Standorte</div>
-        {/block} -->
-
-        {block name="frontend_index_footer_column_service_menu_content"}
-            <nav class="column--navigation column--content">
-    <ul class="dyfooternav">
-        <li style="margin-bottom:5px;color:#93c351;"><a href="../cat/index/sCategory/20/"><strong>Online Shop</strong></a></li>
-    <li style="margin-left:20px;"><a href="/shop/belegtes/">Belegtes</a></li>
-    <li style="margin-left:20px;"><a href="/shop/fingerfood/">Fingerfood</a></li>
-    <li style="margin-left:20px;"><a href="/shop/spiesse/">Spieße</a></li>
-   <li style="margin-left:20px;"> <a href="/shop/warme-speisen/">Warme Speisen</a></li>
-    <li style="margin-left:20px;"><a href="/shop/lunch-pakete/">Lunch Pakete</a></li>
-    <li style="margin-left:20px;"><a href="/shop/salate/">Salate</a></li>
-    <li style="margin-left:20px;"><a href="/shop/dessert-obst/">Dessert & Obst</a></li>
-    <li style="margin-left:20px;"><a href="/shop/sweeties/">Sweeties</a></li>
-    <li style="margin-left:20px;"><a href="/shop/fresh-juices/">Fresh Juices</a></li>
-    <li style="margin-left:20px;"><a href="/shop/konferenz-getraenke/">Konferenz Getränke</a></li>
-    <li style="margin-left:20px;"><a href="/shop/daily-kaffee/">Daily Kaffee</a></li>
-    </ul>
-               
-            </nav>
-       
+        {block name="frontend_index_footer_column_information_menu_headline"}
+            <div class="column--headline">{s name="sFooterShopNavi2"}{/s}</div>
         {/block}
-         <!-- ... -->
+
+        {block name="frontend_index_footer_column_information_menu_content"}
+            <nav class="column--navigation column--content">
+                <ul class="navigation--list" role="menu">
+                    {block name="frontend_index_footer_column_information_menu_before"}{/block}
+                        {foreach $sMenu.bottom2 as $item}
+
+                            {block name="frontend_index_footer_column_information_menu_entry"}
+                                <li class="navigation--entry" role="menuitem">
+                                    <a class="navigation--link" href="{if $item.link}{$item.link}{else}{url controller='custom' sCustom=$item.id title=$item.description}{/if}" title="{$item.description|escape}"{if $item.target} target="{$item.target}"{/if}>
+                                        {$item.description}
+                                    </a>
+
+                                    {* Sub categories *}
+                                    {if $item.childrenCount > 0}
+                                        <ul class="navigation--list is--level1" role="menu">
+                                            {foreach $item.subPages as $subItem}
+                                                <li class="navigation--entry" role="menuitem">
+                                                    <a class="navigation--link" href="{if $subItem.link}{$subItem.link}{else}{url controller='custom' sCustom=$subItem.id title=$subItem.description}{/if}" title="{$subItem.description|escape}"{if $subItem.target} target="{$subItem.target}"{/if}>
+                                                        {$subItem.description}
+                                                    </a>
+                                                </li>
+                                            {/foreach}
+                                        </ul>
+                                    {/if}
+                                </li>
+                            {/block}
+                        {/foreach}
+                    {block name="frontend_index_footer_column_information_menu_after"}{/block}
+                </ul>
+            </nav>
+        {/block}
     </div>
 {/block}
 
-{block name="frontend_index_footer_column_newsletter"}
-    <div class="footer--column column--newsletter is--last block">
-       <!-- ... -->
-       <!-- {block name="frontend_index_footer_column_information_menu_headline"}
-            <div class="column--headline">Online Shop</div>
-        {/block} -->
 
-        {block name="frontend_index_footer_column_information_menu_content"}
-           <nav class="column--navigation column--content">
-                 <ul class="dyfooternav">     
-                     <li style="margin-bottom:5px;color:#93c351;"><a href="../standorte/" style="color:#fff;"><strong>Standorte</strong></a></li>
-           <li style="margin-left:20px;"><a href="../standorte/"> Hamburg Fleetinsel</a></li>
-           <li style="margin-left:20px;"><a href="../standorte/"> Hamburg Hammerbrook</a></li>
-            <li style="margin-bottom:20px;margin-left:20px;"><a href="../standorte/">Hamburg Heidenkampsweg</a></li>
-                     
-            <li style="margin-bottom:20px;"><a href="../catering/business-catering/" style="color:#fff;"><strong>Catering</strong></a></li>
-            <li style="margin-left:20px;"><a href="../catering/kita-catering/">KITA Catering</a></li>
-           <li style="margin-left:20px;"><a href="../catering/business-catering/"> Business Catering</a></li>
-            <li style="margin-left:20px;"><a href="../catering/event-catering/">Event Catering</a></li>
-            <li style="margin-left:20px;"><a href="../betriebsrestaurants/">Betriebsgastronomie</a></li>
-        </ul>
+
+
+
+
+
+
+
+
+{block name="frontend_index_footer_column_newsletter"}
+    <div class="footer--column column--menu is--last block">
+        
+        {block name="frontend_index_footer_column_service_menu_headline"}
+            <div class="column--headline">{s name="sFooterShopNavi4"}{/s}</div>
+        {/block}
+
+        {block name="frontend_index_footer_column_service_menu_content"}
+            <nav class="column--navigation column--content">
+                <ul class="navigation--list" role="menu">
+                    {block name="frontend_index_footer_column_service_menu_before"}{/block}
+
+                    {if $sMenu.standorte}
+                        {foreach $sMenu.standorte as $item}
+
+                            {block name="frontend_index_footer_column_service_menu_entry"}
+                                <li class="navigation--entry" role="menuitem">
+                                    <a class="navigation--link" href="{if $item.link}{$item.link}{else}{url controller='custom' sCustom=$item.id title=$item.description}{/if}" title="{$item.description|escape}"{if $item.target} target="{$item.target}"{/if}>
+                                        {$item.description}
+                                    </a>
+
+                                    {* Sub categories *}
+                                    {if $item.childrenCount > 0}
+                                        <ul class="navigation--list is--level1" role="menu">
+                                            {foreach $item.subPages as $subItem}
+                                                <li class="navigation--entry" role="menuitem">
+                                                    <a class="navigation--link" href="{if $subItem.link}{$subItem.link}{else}{url controller='custom' sCustom=$subItem.id title=$subItem.description}{/if}" title="{$subItem.description|escape}"{if $subItem.target} target="{$subItem.target}"{/if}>
+                                                        {$subItem.description}
+                                                    </a>
+                                                </li>
+                                            {/foreach}
+                                        </ul>
+                                    {/if}
+                                </li>
+                            {/block}
+                        {/foreach}
+
+                    {/if}
+                    {block name="frontend_index_footer_column_service_menu_after"}{/block}
+                </ul>
             </nav>
         {/block}
-        <!-- ... -->
-    </div>
+
+
+
+        {block name="frontend_index_footer_column_service_menu_headline"}
+            <div class="column--headline">{s name="sFooterShopNavi5"}{/s}</div>
+        {/block}
+
+        {block name="frontend_index_footer_column_service_menu_content"}
+            <nav class="column--navigation column--content">
+                <ul class="navigation--list" role="menu">
+                    {block name="frontend_index_footer_column_service_menu_before"}{/block}
+
+                    {if $sMenu.catering}
+                        {foreach $sMenu.catering as $item}
+
+                            {block name="frontend_index_footer_column_service_menu_entry"}
+                                <li class="navigation--entry" role="menuitem">
+                                    <a class="navigation--link" href="{if $item.link}{$item.link}{else}{url controller='custom' sCustom=$item.id title=$item.description}{/if}" title="{$item.description|escape}"{if $item.target} target="{$item.target}"{/if}>
+                                        {$item.description}
+                                    </a>
+
+                                    {* Sub categories *}
+                                    {if $item.childrenCount > 0}
+                                        <ul class="navigation--list is--level1" role="menu">
+                                            {foreach $item.subPages as $subItem}
+                                                <li class="navigation--entry" role="menuitem">
+                                                    <a class="navigation--link" href="{if $subItem.link}{$subItem.link}{else}{url controller='custom' sCustom=$subItem.id title=$subItem.description}{/if}" title="{$subItem.description|escape}"{if $subItem.target} target="{$subItem.target}"{/if}>
+                                                        {$subItem.description}
+                                                    </a>
+                                                </li>
+                                            {/foreach}
+                                        </ul>
+                                    {/if}
+                                </li>
+                            {/block}
+                        {/foreach}
+
+                    {/if}
+                    {block name="frontend_index_footer_column_service_menu_after"}{/block}
+                </ul>
+            </nav>
+        {/block}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {/block}
