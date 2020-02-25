@@ -340,6 +340,24 @@
 @media screen and (min-width: @desktopViewportWidth) {
   .header-main {
     padding: 0;
+
+    position: fixed;
+    width: 100%;
+    background: transparent;
+    z-index: 1000;
+
+    .unitize-height(80);
+    .unitize(top, 0);
+    .unitize-padding(5, 0);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+
+
     .header--navigation {
       .unitize-padding(20,0);
     }
