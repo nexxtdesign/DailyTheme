@@ -1,9 +1,17 @@
 <div class="header-hellobar-main">
     {block name='frontend_index_hello_bar'}
         <div class="container">
-        	
-        	 <p>Liebe Kunden, wie Sie schon bemerkt haben, haben wir unser Shop-System verändert. Aus diesem Grund ist es notwendig, dass Sie sich erneut einmalig registrieren müssen. Bitte denken Sie an die korrekte Rechnungsanschrift sowie gültige Kontaktdaten.</p>
-        	 <a class="btn btn--is-primary" href="/">Mehr erfahren</a>
+
+
+<div class="promo-bar-wrap">
+		<div class="promo-bar">
+			<p><a href="https://themify.me/blog/themifys-valentines-day-sale-2020 ">Be Our Valentine?</a> Enjoy 30% off everything with: <strong>LOVE2020</strong> or $50 off Lifetime with: <strong>LOVELIFE</strong></p>
+		</div>
+		<span class="close promo-toggle"></span>
+	</div>
+
+
+
         </div>
         {/block}
 </div>
