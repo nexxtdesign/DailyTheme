@@ -7,6 +7,10 @@
 {/block}
 
 
+{block name='frontend_index_page_wrap' append}
+hellobar
+{/block}
+
 
 {* Shop header *}
             {block name='frontend_index_navigation'}
