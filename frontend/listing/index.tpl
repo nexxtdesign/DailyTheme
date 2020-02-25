@@ -1,5 +1,12 @@
 {extends file="parent:frontend/listing/index.tpl"}
 
+{block name='frontend_index_content_left'}
+	{if $sArticles|@count > 0}
+	{include file='frontend/listing/listing-categories.tpl'}
+	{/if}
+	{/block}
+
+
 {block name='frontend_index_content_main'}
     {$hasTeaser = $sCategoryContent.media}
 
