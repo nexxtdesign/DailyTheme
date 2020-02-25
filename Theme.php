@@ -34,7 +34,7 @@ SHOPWARE_EOD;
 SHOPWARE_EOD;
 
     protected $author = <<<'SHOPWARE_EOD'
-WILDES MÄDCHEN
+Amir Fayaz
 SHOPWARE_EOD;
 
     protected $license = <<<'SHOPWARE_EOD'
