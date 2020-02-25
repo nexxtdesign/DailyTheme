@@ -337,8 +337,22 @@
 
 // Desktop
 @media screen and (min-width: @desktopViewportWidth) {
+
   .header-main {
     padding: 0;
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    &.fixed {
+      top: 0;
+    }
+
+
     .header--navigation {
       .unitize-padding(20,0);
     }
