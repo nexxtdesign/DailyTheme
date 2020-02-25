@@ -6,11 +6,12 @@
     {/if}
 {/block}
 
-
+{* Shop header 
 {block name='frontend_index_navigation' prepend}
-    {** include file='frontend/index/hellobar.tpl' **}
+    {include file='frontend/index/hellobar.tpl'}
 {/block}
 
+*}
 
 {* Shop header *}
             {block name='frontend_index_navigation'}
