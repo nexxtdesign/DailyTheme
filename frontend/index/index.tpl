@@ -7,16 +7,18 @@
 {/block}
 
 
+                    {* Include the top bar navigation *}
+                    {block name='frontend_index_top_bar_container'}
+                        {include file="frontend/index/topbar-navigation.tpl"}
+                    {/block}
+
 
 {* Shop header *}
             {block name='frontend_index_navigation'}
                 <header class="header-main">
 
                     <div class="container">
-                    {* Include the top bar navigation *}
-                    {block name='frontend_index_top_bar_container'}
-                        {include file="frontend/index/topbar-navigation.tpl"}
-                    {/block}
+
 
                     {block name='frontend_index_header_navigation'}
                         <div class="container header--navigation">
