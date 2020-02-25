@@ -30,6 +30,14 @@
                             {/block}
 
 
+                            {block name='frontend_index_container_ajax_cart'}
+                                <div class="container--ajax-cart" data-collapse-cart="true"{if $theme.offcanvasCart} data-displayMode="offcanvas"{/if}></div>
+                            {/block}
+                        </div>
+                    {/block}
+                </header>
+
+
                             {* Maincategories navigation top *}
                             {block name='frontend_index_navigation_categories_top'}
                                 <nav class="navigation-main">
@@ -41,16 +49,6 @@
                                 </nav>
                                 {/block}
                             {/block}
-
-
-
-                            {block name='frontend_index_container_ajax_cart'}
-                                <div class="container--ajax-cart" data-collapse-cart="true"{if $theme.offcanvasCart} data-displayMode="offcanvas"{/if}></div>
-                            {/block}
-                        </div>
-                    {/block}
-                </header>
-
 
 
 
