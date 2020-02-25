@@ -7,7 +7,7 @@
 {/block}
 
 
-{block name='frontend_index_page_wrap' append}
+{block name='frontend_index_navigation' prepend}
 hellobar
 {/block}
 
