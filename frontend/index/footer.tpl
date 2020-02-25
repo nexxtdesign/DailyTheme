@@ -18,7 +18,7 @@
     
     {block name="frontend_index_footer_copytext"}  
     <div class="footer--copy-text">
-    &copy; {"%Y"|strftime} {config name=shopName}
+    &copy; {"%Y"|strftime} <strong>{config name=shopName}</strong>
     </div>
     {/block}
         
