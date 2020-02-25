@@ -9,6 +9,8 @@
 {* Shop header *}
             {block name='frontend_index_navigation'}
                 <header class="header-main">
+                <div class="container">
+
                     {* Include the top bar navigation *}
                     {block name='frontend_index_top_bar_container'}
                         {include file="frontend/index/topbar-navigation.tpl"}
@@ -45,10 +47,8 @@
                 {/block}
 
 
-
+                </div>
                 </header>
-
-
             {/block}
 
 
