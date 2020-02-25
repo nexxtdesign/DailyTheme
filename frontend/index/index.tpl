@@ -8,7 +8,7 @@
 
 
 {block name='frontend_index_navigation' prepend}
-hellobar
+{include file='frontend/index/hellobar.tpl'}
 {/block}
 
 
