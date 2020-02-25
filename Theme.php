@@ -6,6 +6,25 @@ use Shopware\Components\Form as Form;
 
 class Theme extends \Shopware\Components\Theme
 {
+    /** @var string Defines the parent theme */
+    protected $extend = 'Responsive';
+
+    /** @var string Defines the human readable name */
+    protected $name = 'DailyYou';
+
+    /** @var string Description of the theme */
+    protected $description = 'DAILY Systemgastronomie GmbH - Shopware-Theme';
+
+    /** @var string The author of the theme */
+    protected $author = 'Amir Fayaz';
+
+    /** @var string License of the theme */
+    protected $license = 'MIT';
+
+    protected $injectBeforePlugins = false;
+
+    protected $inheritanceConfig = false;
+
      /**
      * Javascript files which will be used in the theme.
      *
@@ -23,23 +42,7 @@ class Theme extends \Shopware\Components\Theme
     'src/aos/aos.css'
 );
     
-    protected $extend = 'Responsive';
-
-    protected $name = <<<'SHOPWARE_EOD'
-DY Theme
-SHOPWARE_EOD;
-
-    protected $description = <<<'SHOPWARE_EOD'
-
-SHOPWARE_EOD;
-
-    protected $author = <<<'SHOPWARE_EOD'
-Amir Fayaz
-SHOPWARE_EOD;
-
-    protected $license = <<<'SHOPWARE_EOD'
-
-SHOPWARE_EOD;
+   
 
     public function createConfig(Form\Container\TabContainer $container)
     {
