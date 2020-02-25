@@ -3,4 +3,5 @@
         <div class="container">
         	hellobar
         </div>
+        {/block}
 </div>
