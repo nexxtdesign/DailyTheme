@@ -1,9 +1,6 @@
 {extends file="parent:frontend/index/topbar-navigation.tpl"}
 
 {block name="frontend_index_top_bar_nav" prepend}
-
-hellobar
-
     {if $theme.usp_settings_show}
         <div class="top-bar--usp left">
             <ul class="usp--inner">
