@@ -4,8 +4,7 @@ $(function() {
 // BACK TO TOP
 $(window).scroll(function() {
     $(this).scrollTop() >= 200 ? $(".backToTop").addClass('visible') : $(".backToTop").removeClass('visible')
-
-    //$(this).scrollTop() >= 200 ? $(".backToTop").fadeIn() : $(".backToTop").fadeOut()
+    $(this).scrollTop() >= 200 ? $(".backToTop").fadeIn() : $(".backToTop").fadeOut()
     }),
 $(".backToTop").click(function() {
     $("body,html").animate({
