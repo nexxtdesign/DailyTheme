@@ -6,10 +6,6 @@
     {/if}
 {/block}
 
-
-
-
-
 {* Breadcrumb *}
 {block name='frontend_index_breadcrumb'}
 
