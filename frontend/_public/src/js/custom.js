@@ -1,18 +1,4 @@
 $(function() {
-
-
-// BACK TO TOP
-$(window).scroll(function() {
-    $(this).scrollTop() >= 200 ? $(".backToTop").addClass('visible') : $(".backToTop").removeClass('visible')
-    }),
-$(".backToTop").click(function() {
-    $("body,html").animate({
-            scrollTop: 0
-    }, 400)
-});  
-
-
-
     $(window).on("scroll", function() {
         if($(window).scrollTop() > 50) {
             $(".header-main").addClass("headactive");

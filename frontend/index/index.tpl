@@ -28,32 +28,32 @@
 <div class="container" data-menu-scroller="true" data-listSelector=".navigation--list.container" data-viewPortSelector=".navigation--list-wrapper">
 <div class="navigation--list-wrapper">
     <ul class="navigation--list container" role="menubar" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-        <li class="navigation--entry navigation--entry-7"role="menuitem"><a class="navigation--link"href="/betriebsrestaurants/" title="BETRIEBSRESTAURANTS"itemprop="url"> <span itemprop="name">BETRIEBSRESTAURANTS</span></a></li>
+        <li class="navigation--entry navigation--entry-7"role="menuitem"><a class="navigation--link"href="http://test.daily-catering.de/betriebsrestaurants/" title="BETRIEBSRESTAURANTS"itemprop="url"> <span itemprop="name">BETRIEBSRESTAURANTS</span></a></li>
 
-        <li class="navigation--entry navigation--entry-5"role="menuitem"><a class="navigation--link"href="/catering/" title="CATERING"itemprop="url"> <span itemprop="name">CATERING</span></a>
+        <li class="navigation--entry navigation--entry-5"role="menuitem"><a class="navigation--link"href="http://test.daily-catering.de/catering/" title="CATERING"itemprop="url"> <span itemprop="name">CATERING</span></a>
             
             <ul class="navigation--sub navigation--sub-5">
                 <img src="/media/image/07/7a/b8/icon-catering-w.png">
             
-                <li class="navigation--sub-entry"role="menuitem"><a class="navigation--sub-link"href="/catering/kita-catering/"title="KITA Catering"itemprop="url"> <span itemprop="name">KITA Catering</span></a></li>
+                <li class="navigation--sub-entry"role="menuitem"><a class="navigation--sub-link"href="http://test.daily-catering.de/catering/kita-catering/"title="KITA Catering"itemprop="url"> <span itemprop="name">KITA Catering</span></a></li>
                 
-                <li class="navigation--sub-entry"role="menuitem"><a class="navigation--sub-link"href="/catering/business-catering/"title="BUSINESS CATERING"itemprop="url"> <span itemprop="name">BUSINESS CATERING</span></a></li>
+                <li class="navigation--sub-entry"role="menuitem"><a class="navigation--sub-link"href="http://test.daily-catering.de/catering/business-catering/"title="BUSINESS CATERING"itemprop="url"> <span itemprop="name">BUSINESS CATERING</span></a></li>
                 
-                <li class="navigation--sub-entry"role="menuitem"><a class="navigation--sub-link"href="/catering/event-catering/"title="EVENT CATERING"itemprop="url"> <span itemprop="name">EVENT CATERING</span></a></li>
+                <li class="navigation--sub-entry"role="menuitem"><a class="navigation--sub-link"href="http://test.daily-catering.de/catering/event-catering/"title="EVENT CATERING"itemprop="url"> <span itemprop="name">EVENT CATERING</span></a></li>
             
                 
             </ul>
         </li>
         
-        <li class="navigation--entry navigation--entry-15"role="menuitem"><a class="navigation--link"href="/daily-you/" title="DAILY YOU"itemprop="url"> <span itemprop="name">DAILY YOU</span></a>
+        <li class="navigation--entry navigation--entry-15"role="menuitem"><a class="navigation--link"href="http://test.daily-catering.de/daily-you/" title="DAILY YOU"itemprop="url"> <span itemprop="name">DAILY YOU</span></a>
             <ul class="navigation--sub navigation--sub-15">
                    <img src="/media/image/a0/8b/a6/icon-daily-you-w.png">
               
-                <li class="navigation--sub-entry"role="menuitem"><a class="navigation--sub-link"href="/daily-you/ueber-uns/"title="ÜBER UNS"itemprop="url"> <span itemprop="name">ÜBER UNS</span></a></li>
+                <li class="navigation--sub-entry"role="menuitem"><a class="navigation--sub-link"href="http://test.daily-catering.de/daily-you/ueber-uns/"title="ÜBER UNS"itemprop="url"> <span itemprop="name">ÜBER UNS</span></a></li>
             
-                <li class="navigation--sub-entry"role="menuitem"><a class="navigation--sub-link"href="/daily-you/referenzen/"title="REFERENZEN"itemprop="url"> <span itemprop="name">REFERENZEN</span></a></li><li class="navigation--sub-entry"role="menuitem"><a class="navigation--sub-link"href="/daily-you/kontakt/"title="KONTAKT"itemprop="url"> <span itemprop="name">KONTAKT</span></a></li>
+                <li class="navigation--sub-entry"role="menuitem"><a class="navigation--sub-link"href="http://test.daily-catering.de/daily-you/referenzen/"title="REFERENZEN"itemprop="url"> <span itemprop="name">REFERENZEN</span></a></li><li class="navigation--sub-entry"role="menuitem"><a class="navigation--sub-link"href="http://test.daily-catering.de/daily-you/kontakt/"title="KONTAKT"itemprop="url"> <span itemprop="name">KONTAKT</span></a></li>
         
-                <li class="navigation--sub-entry"role="menuitem"><a class="navigation--sub-link"href="/daily-you/service-info/"title="SERVICE INFO"itemprop="url"> <span itemprop="name">SERVICE INFO</span></a></li>
+                <li class="navigation--sub-entry"role="menuitem"><a class="navigation--sub-link"href="http://test.daily-catering.de/daily-you/service-info/"title="SERVICE INFO"itemprop="url"> <span itemprop="name">SERVICE INFO</span></a></li>
             </ul>
             </li>
         </ul>
